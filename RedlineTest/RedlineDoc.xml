@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RedlineTest</name>
+    </assembly>
+    <members>
+        <member name="T:RedlineTest.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:RedlineTest.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:RedlineTest.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:RedlineTest.Properties.Resources.tachometer">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:RedlineTest.Properties.Resources.tachometer1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:RedlineTest.TestForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RedlineTest.TestForm.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RedlineTest.TestForm.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.IO.Compression.Redline">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.EncodeUTF8">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ForceDeflating">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Create(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_filename"></param>
+            <param name="_comment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Create(System.IO.Stream,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_stream"></param>
+            <param name="_comment"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Open(System.String,System.IO.FileAccess)">
+            <summary>
+            
+            </summary>
+            <param name="_filename"></param>
+            <param name="_access"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Open(System.IO.Stream,System.IO.FileAccess)">
+            <summary>
+            
+            </summary>
+            <param name="_stream"></param>
+            <param name="_access"></param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <exception cref="T:System.IO.InvalidDataException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.AddFile(System.IO.Compression.Redline.Compression,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_method"></param>
+            <param name="_pathname"></param>
+            <param name="_filenameInZip"></param>
+            <param name="_comment"></param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.AddStream(System.IO.Compression.Redline.Compression,System.String,System.IO.Stream,System.DateTime,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_method"></param>
+            <param name="_filenameInZip"></param>
+            <param name="_source"></param>
+            <param name="_modTime"></param>
+            <param name="_comment"></param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Close">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Compression.Redline.ReadCentralDir">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.ExtractFile(System.IO.Compression.Redline.ZipFileEntry,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="_zfe"></param>
+            <param name="_filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.Redline.ExtractFile(System.IO.Compression.Redline.ZipFileEntry,System.IO.Stream)">
+            <summary>
+            
+            </summary>
+            <param name="_zfe"></param>
+            <param name="_stream"></param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.RemoveEntries(System.IO.Compression.Redline@,System.Collections.Generic.List{System.IO.Compression.Redline.ZipFileEntry})">
+            <summary>
+            
+            </summary>
+            <param name="_zip"></param>
+            <param name="_zfes"></param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:System.IO.Compression.Redline.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.IO.Compression.Redline.Compression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.Compression.Store">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.Compression.Deflate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.IO.Compression.Redline.ZipFileEntry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.Method">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.FilenameInZip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.FileSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.CompressedSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.HeaderOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.FileOffset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.HeaderSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.Crc32">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.ModifyTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.Comment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Redline.ZipFileEntry.EncodeUTF8">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Compression.Redline.ZipFileEntry.ToString">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
